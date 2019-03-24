@@ -13,8 +13,8 @@ if (sayHi.toUpperCase() === sayHi) {
   console.log("YES INDEED!")
 } else if (sayHi.toLowerCase === sayHi) {
   console.log("I can't hear you!")
-} else if (sayHi === "I love you too, Gr{
-  console.log("Reading newspaper.")
+} else if (sayHi === "I love you, Grandma.") {
+  console.log("I ")
 }
  
 var lowercase = 'hello!'
