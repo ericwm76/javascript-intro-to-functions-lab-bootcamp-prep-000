@@ -19,9 +19,7 @@ if (string.toUpperCase() === string) {
 } else if (string === "I love you, Grandma.") {
   console.log("I love you too.")
 }
-sayHiToGrandma("HELLO!")
-sayHiToGrandma("hello")
-sayHiToGrandma("I love you, Grandma.")
+
 sayHiToGrandma('HELLO!')
 sayHiToGrandma('hello')
 sayHiToGrandma('I love you, Grandma.')
