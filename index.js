@@ -9,8 +9,8 @@ function sayHiToGrandma(string) {
 }
 
 var uppercase = "HELLO!"
- 
-uppercase.toUpperCase() === uppercase // true
+if (uppercase.toUpperCase() === uppercase) 
+  console.log("")
  
 var lowercase = 'hello!'
  
@@ -23,7 +23,7 @@ mixedCase.toLowerCase() === mixedCase // false
 mixedCase.toUpperCase() === mixedCase
 var dog = "thirsty"
  
-if (dog === "hungry") {
+if ( === "hungry") {
   console.log("Refilling food bowl.")
 } else if (dog === "thirsty") {
   console.log("Refilling water bowl.")
