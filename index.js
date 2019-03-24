@@ -8,10 +8,9 @@ function sayHiToGrandma(string) {
   return string.toLowerCase()
 }
 
-var sayHi = "HELLO!"
-if (sayHi.toUpperCase() === sayHi) {
+if (sayHiToGrandma(string).toUpperCase() === sayHiToGrandma(string)) {
   console.log("YES INDEED!")
-} else if (sayHi.toLowerCase === sayHi) {
+} else if (sayHiToGrandma(str).toLowerCase === sayHi) {
   console.log("I can't hear you!")
 } else if (sayHi === "I love you, Grandma.") {
   console.log("I love you too.")
