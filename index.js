@@ -8,9 +8,14 @@ function sayHiToGrandma(string) {
   return string.toLowerCase()
 }
 
-var uppercase = "HELLO!"
-if (uppercase.toUpperCase() === uppercase) 
+var sayHi = "HELLO!"
+if (sayHi.toUpperCase() === sayHi) {
+  console.log("YES INDEED!")
+} else if (sayHi.toLowerCase === sayHi) {
   console.log("")
+} else {
+  console.log("Reading newspaper.")
+}
  
 var lowercase = 'hello!'
  
