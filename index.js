@@ -12,11 +12,11 @@ var uppercase = "HELLO!"
 var lowercase = "hello"
 var love = "I love you, Grandma"
  
-if (uppercase.toUpperCase() === uppercase) {
+if (string.toUpperCase() === string) {
   console.log("YES INDEED!")
-} else if (lowercase.toLowerCase() === lowercase) {
+} else if (string.toLowerCase() === string) {
   console.log("I can't hear you!")
-} else if (love === "I love you, Grandma.") {
+} else if (string === "I love you, Grandma.") {
   console.log("I love you too.")
 }
 sayHiToGrandma("HELLO!")
