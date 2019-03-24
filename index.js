@@ -14,24 +14,8 @@ if (sayHi.toUpperCase() === sayHi) {
 } else if (sayHi.toLowerCase === sayHi) {
   console.log("I can't hear you!")
 } else if (sayHi === "I love you, Grandma.") {
-  console.log("I ")
+  console.log("I love you too.")
 }
- 
-var lowercase = 'hello!'
- 
-lowercase.toLowerCase() === lowercase // true
- 
-var mixedCase = 'Hi there!'
- 
-mixedCase.toLowerCase() === mixedCase // false
- 
-mixedCase.toUpperCase() === mixedCase
-var dog = "thirsty"
- 
-if ( === "hungry") {
-  console.log("Refilling food bowl.")
-} else if (dog === "thirsty") {
-  console.log("Refilling water bowl.")
-} else {
-  console.log("Reading newspaper.")
-}
+sayHiToGrandma('HELLO!')
+sayHiToGrandma('hello')
+sayHiToGrandma('I love you, Grandma.')
