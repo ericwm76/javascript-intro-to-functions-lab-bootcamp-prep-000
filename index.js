@@ -8,13 +8,20 @@ function sayHiToGrandma(string) {
   return string.toLowerCase()
 }
 
-if (sayHiToGrandma(string).toUpperCase() === sayHiToGrandma(string)) {
+var uppercase = "HELLO!"
+var lowercase = "hello"
+var love = "I love you, Grandma"
+ 
+if (uppercase.toUpperCase() === uppercase) {
   console.log("YES INDEED!")
-} else if (sayHiToGrandma(str).toLowerCase === sayHi) {
+} else if (lowercase.toLowerCase() === lowercase) {
   console.log("I can't hear you!")
-} else if (sayHi === "I love you, Grandma.") {
+} else if (love === "I love you, Grandma.") {
   console.log("I love you too.")
 }
+sayHiToGrandma("HELLO!")
+sayHiToGrandma("hello")
+sayHiToGrandma("I love you, Grandma.")
 sayHiToGrandma('HELLO!')
 sayHiToGrandma('hello')
 sayHiToGrandma('I love you, Grandma.')
